@@ -1,0 +1,74 @@
+.square{
+	width:400px;
+	height:600px;
+	float:left;
+}
+
+.roomDiv{
+	position:absolute;
+	left:900px;
+	top:100px;
+	width:500px;
+	height:400px;
+	float:left;
+}
+
+.find{
+	float:left;
+}
+
+#findType{
+	float:left;
+}
+
+.title{
+	font-size: :30px;
+	margin:20px auto;
+}
+.game{
+	width:200px;
+	height:400px;
+	background-color:#F2FAFF;
+	border-left:1px solid blue;
+	border-right:1px solid blue;
+	border-bottom:1px solid blue;
+	position:relative;
+	float:left;
+}
+
+.next{
+	width:80px;
+	height:80px;
+	background-color:#F2FAFF;
+	position:relative;
+	border:1px solid blue;
+	float:left;
+	margin-left: 40px;
+}
+
+.info{
+	float:left;
+	margin-left:40px;
+	margin-top: 10px;
+}
+
+.none,.current,.done{
+	width:20px;
+	height:20px;
+	position:absolute;
+	box-sizing:border-box;
+}
+
+.none{
+	background-color:#F2FAFF;
+}
+
+.current{
+	background-color:pink;
+	border:1px solid red;
+}
+
+.done{
+	background-color:gray;
+	border:1px solid black;
+}
